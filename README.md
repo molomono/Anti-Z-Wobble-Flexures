@@ -1,5 +1,5 @@
-# Anti-Z-Wobble-Flexures
-Low cost SOTA performance 3d printable flexure based substitute for Oldham couplings.   
+# Anti-Z-Wobble Flexures
+Low cost SOTA performance 3d printable flexure based drop-in substitute for Oldham couplings.   
 Onshape project focussing on solving z-axis misalignment and wobble induced printing artifacts using flexures.
 
 ---
