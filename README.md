@@ -43,9 +43,19 @@ Main downside:
 
 ## 1. Design A: [Parallelogram]
 [Recommended Design, well suited for 3d printing and dimensions are similar to oldham coupling.]
-<p align="center">
-  <img src="Design A Parallelogram/Images/Parallelogram-Z-Flexure.PNG" width="600" title="Design A">
-</p>
+<table border="0">
+  <tr>
+    <td>
+      <p align="center"><b>Design A: Standard</b></p>
+      <img src="Design A Parallelogram/Images/Parallelogram-Z-Flexure.PNG" width="300">
+    </td>
+    <td>
+      <p align="center"><b>Design A: Reinforced Leaf Springs</b></p>
+      <img src="Design A Parallelogram/Images/Parallelogram-Z-Flexur-Reinforced.PNGe.PNG" width="300">
+    </td>
+  </tr>
+</table>
+
 
 ### Key Specifications
 * **Standard Dimensions:** 28.7x28.7x37.5mm (without bolts)
@@ -55,6 +65,25 @@ Main downside:
 	**Pros**: Easily achieves low x-y stiffness while maintaining high stiffness in other DOFs. 
 		Easier printing, and easier to tune stiffness than design B.   
 	**Cons**: Z-deflection becomes relational to x-y deflections (see figure) & "Tricky" assembly
+
+<p align="center">
+  <img src="Design A Parallelogram/Images/AntiWobbleDeflectionGraph_Shaded.jpg" width="600" title="Deflection in Z as product of deflection in x,y">
+</p>
+
+
+
+<table border="0">
+  <tr>
+    <td>
+      <p align="center"><b>Design A: Standard</b></p>
+      <img src="Design A Parallelogram/Images/Parallelogram-Z-Flexure-Section.PNG" width="300">
+    </td>
+    <td>
+      <p align="center"><b>Design A: Reinforced Leaf Springs</b></p>
+      <img src="Design A Parallelogram/Images/Parallelogram-Z-Flexur-Reinforced-Section.PNGe.PNG" width="300">
+    </td>
+  </tr>
+</table>
 
 Notes: Highly recommended to use Torx for any bolts below M3 because hex-bolts start stripping easily.
 ---
