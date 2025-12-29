@@ -120,12 +120,6 @@ To modify this design:
 ## ⚖️ License
 
 This project is licensed under the **Open Community License (OCL)**.
-
-* **Personal Use:** You are free to print, build, and modify these designs for your own use.
-* **Internal Business Use:** You may use these designs within your company (e.g., as tools on a production line).
-* **Commercial Restriction:** You may **not** sell the 3D files or physical 3D-printed versions of these designs for profit without explicit permission from the author.
-* **Attribution:** Any redistribution must include credit to the original author.
-
 [View the full OCL terms here](https://github.com/OpenCommunityLicence/OpenCommunityLicence)
 
 ---
