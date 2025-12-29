@@ -18,16 +18,16 @@ See [FACT](https://en.wikipedia.org/wiki/Freedom_and_constraint_topologies) for 
 ---
 ## Quick Overview
 
-Two primary designs, sharing common metrics for performance.
-	- High relative stiffness between z and x-y axes, 
-		- High stiffness in z axis. Flexure must easily support the bed under fast accelrations.
-		- Low stiffness in x y axes.
-	- High resistance to tortion around z.
+Two primary designs, sharing common metrics for performance.   
+	- High relative stiffness between z and x-y axes,    
+		- High stiffness in z axis. Flexure must easily support the bed under fast accelrations.   
+		- Low stiffness in x y axes.   
+	- High resistance to tortion around z.   
 
-Main benefits:
-	- Fixes minor misalignments, (releasing overconstrained Z-motion system)
-	- Flexure, thus no friction motion, therefore low hysteresis. (State of the Art performance for T8 threaded z-axis printers)
-	- Exceptionally low cost, (3D printed designs, practically free except for a few M2.5/M3 screws) 
+Main benefits:   
+	- Fixes minor misalignments, (releasing overconstrained Z-motion system)   
+	- Flexure, thus no friction motion, therefore low hysteresis. (State of the Art performance for T8 threaded z-axis printers)   
+	- Exceptionally low cost, (3D printed designs, practically free except for a few M2.5/M3 screws)   
 
 Main downside:
 	- Use in heated enviroments will require apropriate choice of material.
@@ -72,7 +72,7 @@ Main downside:
 
 
 
-<table border="0">
+<table border="0" align="center">
   <tr>
     <td>
       <p align="center"><b>Design A: Standard</b></p>
@@ -85,18 +85,29 @@ Main downside:
   </tr>
 </table>
 
-Notes: Highly recommended to use Torx for any bolts below M3 because hex-bolts start stripping easily.
+**Note: Highly recommended to use Torx for any bolts below M3 because hex-bolts start stripping easily.**
+
 ---
 
 ## 2. Design B: [Planar]
-[Experimentation with linear planar motion stages. This design works but is more difficult to print.]
+[Experimentation with linear planar motion stages. This design works but is more difficult to print, but the design is well suited to be adapted for a CNC based solution can easily be machined.]
+
+<p align="center">
+  <img src="Design B Planar/Images/Planar-Z-Flexure.PNG" width="600" title="Deflection in Z as product of deflection in x,y">
+</p>
 
 ### Key Specifications
-* **Dimensions:** 52x52x12.5mm (without bolts)
-* **Hardware Required:** M3x8mm 8 times, M3x12mm 4 times, Threaded T8-Nut
-* **Main Features:**
+* **Dimensions:** 52x52x12.5mm (without bolts)  
+* **Hardware Required:** M3x8mm 8 times, M3x12mm 4 times, Threaded T8-Nut   
+* **Main Features:**   
   	**Pros**: Very simple, symetric design.    
-	**Cons**: Lower relative stiffness, akward shape, harder to print.
+	**Cons**: Lower relative stiffness, akward shape, harder to print.  
+
+  
+<p align="center">
+  <img src="Design B Planar/Images/Planar-Z-Flexure-Section.PNG" width="600" title="Deflection in Z as product of deflection in x,y">
+</p>
+
 ---
 
 ### Onshape Workflow
