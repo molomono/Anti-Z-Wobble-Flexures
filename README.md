@@ -29,7 +29,7 @@ Main benefits:
 	- Exceptionally low cost, (3D printed designs, practically free except for a few M2.5/M3 screws)   
 
 Main downside:
-	- Use in heated enviroments will require apropriate choice of material.
+	- Use in heated environments will require apropriate choice of material.
 
 ---
 
