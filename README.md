@@ -100,7 +100,7 @@ Main downside:
 * **Dimensions:** 52x52x12.5mm (without bolts)  
 * **Hardware Required:** M3x8mm 8 times, M3x12mm 4 times, Threaded T8-Nut   
 * **Main Features:**   
-  	**Pros**: Very simple, symetric design.    
+  	**Pros**: Very simple, symetric design, design structure well suited CNC machining.  
 	**Cons**: Lower relative stiffness, akward shape, harder to print.  
 
   
