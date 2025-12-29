@@ -9,16 +9,14 @@ causing the nozzle to shift slightly sideways, resulting in visible, repeating h
 (Z-banding) on the print's surface. It's a hardware problem, often from bent lead screws, misaligned couplers,
 and leads to inconsistent layer stacking. 
 
-A consequence of this wobble is the varying radial forces between the lead screw and the nut.
-This results in uncertain friction between the screw and nut threads. These uncertainties directly impact 
-performance negatively in a broad sense, even when using velocity/position-controlled actuators. (steppers) 
-In severe cases, it can cause binding/skipping of the z-axis, especially with more rigid printer builds.
-
 The approach to solving z-wobble and related artifacts is by releasing the x and y degrees of freedom at 
 the interface between the T8-nut and the printer bed. (Same as any anti-wobble nut, oldham couplings, WobbleX) 
 These DOFs are over-constrained by the linear rails AND the threaded rod. 
 This project utilizes [Flexures](https://en.wikipedia.org/wiki/Flexure) to achieve this constraint relaxation. 
 See [FACT](https://en.wikipedia.org/wiki/Freedom_and_constraint_topologies) for more info on design considerations.
+
+---
+## Quick Overview
 
 Two primary designs, sharing common metrics for performance.
 	- High relative stiffness between z and x-y axes, 
@@ -35,8 +33,6 @@ Main downside:
 	- Use in heated enviroments will require apropriate choice of material.
 
 ---
-
-## Quick Navigation
 
 | Design | Purpose | Onshape Link |
 | :--- | :--- | :--- |
@@ -75,27 +71,6 @@ Notes: Highly recommended to use Torx for any bolts below M3 because hex-bolts s
 To modify this design:
 1. Open [Design A](https://cad.onshape.com/documents/e9f5f3ec017cd79d059d23d6/w/ac5a599820a5beecc4798aae/e/dd3290a3d811bc061c931160?configuration=default&renderMode=0&uiState=69528658e2474bc8591230e6) or [Design B](https://cad.onshape.com/documents/95f8fcc605a67b3147b08d67/w/e3557ddfdb1231eb4b031d51/e/2aff83f88191c0ca42ad76a6?renderMode=0&uiState=69528a697de4240c3342bd8b).
 2. Click **"Make a Copy"** (requires a free Onshape account) to edit.
-
-## 🛠 Manufacturing Instructions
-
-### 3D Printing Recommended Settings
-* **Material:** [e.g., PETG or PLA+]
-* **Perimeters/Wall Loops:** 3 minimum
-* **Infill:** 15-25% Gyroid
-* **Supports:** [e.g., Required for Design A / Not required for Design B]
-
-### Assembly Guide
-1. [Step 1]
-2. [Step 2]
-> **Note:** Detailed assembly photos can be found in the `/Docs` folder of this repository.
-
----
-
-## 📂 Repository Structure
-* `/Design_A`: Static exports (STEP/STL) for the heavy-duty version.
-* `/Design_B`: Static exports (STEP/STL) for the lightweight version.
-* `/Common`: Shared parts used in both designs.
-* `/Docs`: Assembly diagrams and high-res photos.
 
 ---
 
