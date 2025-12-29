@@ -62,7 +62,7 @@ Main downside:
 * **Hardware Required:** BOM: M3x8mm 8 times, M2.5x8mm 16 times, Threaded T8-Nut
 * **Main Features:**  
 	**Pros**: Easily achieves low x-y stiffness while maintaining high stiffness in other DOFs. 
-		Easier printing, and easier to tune stiffness than design B.   
+		Easier printing, and stiffness tuning than design B.   
 	**Cons**: Z-deflection becomes relational to x-y deflections (see figure) & "Tricky" assembly
 
 <p align="center">
