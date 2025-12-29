@@ -46,29 +46,29 @@ Main downside:
 ---
 
 ## 1. Design A: [Parallelogram]
-[Brief description of why this design exists and who it is for.]
-
-- Pros: Easily achieves low x-y stiffness while maintaining high stiffness in other DOFs. 
-		Easier printing, and easier to tune stiffness than design B. 
-- Cons: Z-deflection becomes relational to x-y deflections (see figure) & "Tricky" assembly
+[Recommended Design, well suited for 3d printing and dimensions are similar to oldham coupling.]
 
 ### Key Specifications
-* **Dimensions Standard:** 28.7x28.7x37.5mm (without bolts)
-	**Dimensions Reinforced:** 28.7x28.7x42.833mm (without bolts) (reinforced leaf spring version)
+* **Standard Dimensions:** 28.7x28.7x37.5mm (without bolts)
+* **Reinforced Dimensions:** 28.7x28.7x42.833mm (without bolts) (reinforced leaf spring version)
 * **Hardware Required:** BOM: M3x8mm 8 times, M2.5x8mm 16 times, Threaded T8-Nut
-* **Main Features:** [Feature 1], [Feature 2]
+* **Main Features:**
+	**Pros**: Easily achieves low x-y stiffness while maintaining high stiffness in other DOFs. 
+		Easier printing, and easier to tune stiffness than design B.   
+	**Cons**: Z-deflection becomes relational to x-y deflections (see figure) & "Tricky" assembly
 
 Notes: Highly recommended to use Torx for any bolts below M3 because hex-bolts start stripping easily.
 ---
 
 ## 2. Design B: [Planar]
-[Brief description highlighting the differences from Design A.]
+[Experimentation with linear planar motion stages. This design works but is more difficult to print.]
 
 ### Key Specifications
-* **Dimensions:** X mm x Y mm x Z mm
-* **Hardware Required:** [List unique hardware here]
-* **Main Features:** [Feature 1], [Feature 2]
-
+* **Dimensions:** 52x52x12.5mm (without bolts)
+* **Hardware Required:** M3x8mm 8 times, M3x12mm 4 times, Threaded T8-Nut
+* **Main Features:**
+  	**Pros**: Very simple, symetric design.    
+	**Cons**: Lower relative stiffness, akward shape, harder to print.
 ---
 
 ### Onshape Workflow
