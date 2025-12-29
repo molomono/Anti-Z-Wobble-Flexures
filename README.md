@@ -43,6 +43,9 @@ Main downside:
 
 ## 1. Design A: [Parallelogram]
 [Recommended Design, well suited for 3d printing and dimensions are similar to oldham coupling.]
+<p align="center">
+  <img src="Design A Parallelogram/Images/Parallelogram-Z-Flexure.PNG" width="600" title="Design A">
+</p>
 
 ### Key Specifications
 * **Standard Dimensions:** 28.7x28.7x37.5mm (without bolts)
@@ -75,13 +78,14 @@ To modify this design:
 ---
 
 ## ⚖️ License
-This project is licensed under the **[Insert License Name, e.g., CERN-OHL-S v2 or CC BY-SA 4.0]**.
-- **Commercial use:** [Allowed/Disallowed]
-- **Attribution:** Required
-- **Share Alike:** Required
+
+This project is licensed under the **Open Community License (OCL)**.
+
+* **Personal Use:** You are free to print, build, and modify these designs for your own use.
+* **Internal Business Use:** You may use these designs within your company (e.g., as tools on a production line).
+* **Commercial Restriction:** You may **not** sell the 3D files or physical 3D-printed versions of these designs for profit without explicit permission from the author.
+* **Attribution:** Any redistribution must include credit to the original author.
+
+[View the full OCL terms here](https://github.com/OpenCommunityLicence/OpenCommunityLicence)
 
 ---
-
-## Contact & Contribution
-If you have suggestions or find an issue, please open an **Issue** or submit a **Pull Request**. 
-Designed by **[Your Name/Handle]**.
