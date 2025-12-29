@@ -43,15 +43,15 @@ Main downside:
 
 ## 1. Design A: [Parallelogram]
 [Recommended Design, well suited for 3d printing and dimensions are similar to oldham coupling.]
-<table border="0">
+<table border="0" align="center">
   <tr>
     <td>
       <p align="center"><b>Design A: Standard</b></p>
-      <img src="Design A Parallelogram/Images/Parallelogram-Z-Flexure.PNG" width="300">
+      <img src="Design A Parallelogram/Images/Parallelogram-Z-Flexure.PNG" width="400">
     </td>
     <td>
       <p align="center"><b>Design A: Reinforced Leaf Springs</b></p>
-      <img src="Design A Parallelogram/Images/Parallelogram-Z-Flexur-Reinforced.PNGe.PNG" width="300">
+      <img src="Design A Parallelogram/Images/Parallelogram-Z-Flexure-Reinforced.PNG" width="400">
     </td>
   </tr>
 </table>
@@ -80,7 +80,7 @@ Main downside:
     </td>
     <td>
       <p align="center"><b>Design A: Reinforced Leaf Springs</b></p>
-      <img src="Design A Parallelogram/Images/Parallelogram-Z-Flexur-Reinforced-Section.PNGe.PNG" width="300">
+      <img src="Design A Parallelogram/Images/Parallelogram-Z-Flexure-Reinforced-Section.PNG" width="300">
     </td>
   </tr>
 </table>
