@@ -1,6 +1,5 @@
 # Anti-Z-Wobble-Flexures
-Low cost SOTA performance 3d printable flexure based substitute for Oldham couplings.
-
+Low cost SOTA performance 3d printable flexure based substitute for Oldham couplings.   
 Onshape project focussing on solving z-axis misalignment and wobble induced printing artifacts using flexures.
 
 ---
@@ -61,7 +60,7 @@ Main downside:
 * **Standard Dimensions:** 28.7x28.7x37.5mm (without bolts)
 * **Reinforced Dimensions:** 28.7x28.7x42.833mm (without bolts) (reinforced leaf spring version)
 * **Hardware Required:** BOM: M3x8mm 8 times, M2.5x8mm 16 times, Threaded T8-Nut
-* **Main Features:**
+* **Main Features:**  
 	**Pros**: Easily achieves low x-y stiffness while maintaining high stiffness in other DOFs. 
 		Easier printing, and easier to tune stiffness than design B.   
 	**Cons**: Z-deflection becomes relational to x-y deflections (see figure) & "Tricky" assembly
