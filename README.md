@@ -22,6 +22,7 @@ Two primary designs, sharing common metrics for performance.
 		- High stiffness in z axis. Flexure must easily support the bed under fast accelrations.   
 		- Low stiffness in x y axes.   
 	- High resistance to tortion around z.   
+	- Parametric Design So the dimensions of the model can easily be changed to better fit the users requirements. (see Onshape Workflow below)
 
 Main benefits:   
 	- Fixes minor misalignments, (releasing overconstrained Z-motion system)   
@@ -120,7 +121,7 @@ Main downside:
 To modify this design:
 1. Open [Parallelogram Design](https://cad.onshape.com/documents/e9f5f3ec017cd79d059d23d6/w/ac5a599820a5beecc4798aae/e/dd3290a3d811bc061c931160?configuration=default&renderMode=0&uiState=69528658e2474bc8591230e6) or [Planar Design](https://cad.onshape.com/documents/95f8fcc605a67b3147b08d67/w/e3557ddfdb1231eb4b031d51/e/2aff83f88191c0ca42ad76a6?renderMode=0&uiState=69528a697de4240c3342bd8b).
 2. Click **"Make a Copy"** (requires a free Onshape account) to edit.
-3. Hopefully the parametric design (variable table) will allow for easy tuning to suite your needs.
+3. The variable table can be opened on the right from which dimensions of the model can be altered to better suit your needs.
 
 ---
 
