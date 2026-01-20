@@ -35,7 +35,8 @@ Main downside:
 
 | Design | Key property | Onshape Link |
 | :--- | :--- | :--- |
-| **Design A: [Parallelogram]** | [Low x,y stiffness] | [Open Live Model 🔗](https://cad.onshape.com/documents/e9f5f3ec017cd79d059d23d6/w/ac5a599820a5beecc4798aae/e/dd3290a3d811bc061c931160?configuration=default&renderMode=0&uiState=69528658e2474bc8591230e6) |
+| **Design A V2: [Parallelogram]** | [Low x,y stiffness] | [Open Live Model 🔗](https://cad.onshape.com/documents/e9f5f3ec017cd79d059d23d6/w/ac5a599820a5beecc4798aae/e/dd3290a3d811bc061c931160?configuration=default&renderMode=0&uiState=69528658e2474bc8591230e6) |
+| **Design A V3: [Parallelogram]** | [Stiff Z DoFs] | [Open Live Model 🔗](https://cad.onshape.com/documents/0bdb8cc5919d48aaf7c68062/w/57636940a288332a187afe87/e/9ee4d49a4399172ee17dd28a) |
 | **Design B: [Planar]** | [Flat profile] | [Open Live Model 🔗](https://cad.onshape.com/documents/95f8fcc605a67b3147b08d67/w/e3557ddfdb1231eb4b031d51/e/2aff83f88191c0ca42ad76a6?renderMode=0&uiState=69528a697de4240c3342bd8b) |
 
 ---
