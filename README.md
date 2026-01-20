@@ -42,7 +42,12 @@ Main downside:
 ---
 
 ## 1. Design A: [Parallelogram]
-[Recommended Design, well suited for 3d printing and dimensions are similar to oldham coupling.]
+[V3 is the Recommended Design, well suited for 3d printing and dimensions are similar to oldham coupling.]
+
+<p align="center">
+  <img src="Design A V3/Images/V3-general.PNG" width="600" title="Deflection in Z as product of deflection in x,y">
+</p>
+
 <table border="0" align="center">
   <tr>
     <td>
