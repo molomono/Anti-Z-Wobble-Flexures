@@ -65,7 +65,8 @@ Main downside:
 ### Key Specifications
 * **Standard Dimensions:** 28.7x28.7x37.5mm (without bolts)
 * **Reinforced Dimensions:** 28.7x28.7x42.833mm (without bolts) (reinforced leaf spring version)
-* **Hardware Required:** BOM: M3x8mm 8 times, M2.5x8mm 16 times, Threaded T8-Nut
+* **V3 Dimensions:** 38.8x38.8x39.0mm (without bolts) (V3 reinforced leaf spring version)
+* **Hardware Required:** BOM: M3x8mm 8 times, M2.5x8mm 16 times (V3 uses 24), Threaded T8-Nut
 * **Main Features:**  
 	**Pros**: Easily achieves low x-y stiffness while maintaining high stiffness in other DOFs. 
 		Easier printing, and stiffness tuning than design B.   
