@@ -115,6 +115,22 @@ Main downside:
   <img src="Design B Planar/Images/Planar-Z-Flexure-Section.PNG" width="600" title="Deflection in Z as product of deflection in x,y">
 </p>
 
+
+---
+
+## Notes on print-settings
+### Design A:
+* I used PLA but PLA-CF/-GF might improve performance due to the print orietnation of the springs.
+* Leaf springs must be printed flat with the reinforcements pointed up. Make sure that the unreinforced part of the springs is 100% considered bottom/top shell.
+* Using rectilinear infill makes for good internal reinforcement structure. 30% is sufficient.
+* Use 3-4 perimeter walls and 30% infill on the other printed boddies.
+* Over-extruding the first layer is fine for functionality of this part, underextruding WILL cause issues.
+
+### Design B:
+* Make sure the seams do not align near the connection point between spring and body.
+* Make sure the nozzle diameter ensures there are at least 2 walls in each spring.
+* If the above requirements aren't met the springs can disconnect from the body.
+
 ---
 
 ### Onshape Workflow
